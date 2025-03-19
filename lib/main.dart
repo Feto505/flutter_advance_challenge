@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Challenge',
+      title: 'Flutter Chale',
       debugShowCheckedModeBanner: false,
       home: BlocProvider(
         create: (_) => ProductCubit(getIt())..fetchProducts(),
